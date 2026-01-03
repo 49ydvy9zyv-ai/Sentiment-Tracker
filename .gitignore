@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local env files
+.env
+
+# Data exports
+*.csv
+*.parquet

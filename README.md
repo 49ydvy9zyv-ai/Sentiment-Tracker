@@ -71,6 +71,12 @@ Create `.streamlit/secrets.toml` (do not commit it). Start from:
 streamlit run app.py
 ```
 
+If `streamlit` isn’t on your PATH, you can also run:
+
+```bash
+python -m streamlit run app.py
+```
+
 On first run, the app may download required NLTK resources (`vader_lexicon`, `punkt`, `stopwords`).
 
 ---
